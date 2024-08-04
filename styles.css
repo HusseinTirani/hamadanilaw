@@ -49,6 +49,7 @@ body{
     transition: 0.6s;
     z-index: 10000;
     background-color: #000000;
+    border-radius: 15px;
 
 
 
@@ -153,6 +154,7 @@ body{
     width: 100%;
     background-size: cover;
     background-position: center;
+    
 }
 
 .home-screen1{
@@ -163,20 +165,21 @@ body{
     width: 100%;
     background-size: cover;
     background-position: center;
+    border-radius: 15px;
 }
 
 .home-details{
 
     color: #fff;
     padding-top: 10%;
-    align-items: center;
+    
     
 }
 
 .home-details1{
     color: #fff;
     padding-top: 10%;
-    align-items: center;
+    padding-left: 2%;
 }
 
 .home-details h1{
@@ -195,20 +198,20 @@ body{
     font-family: 'Source Code Pro', monospace;  
     font-size: 28px;
     color: rgba(255,255,255,.70);
-    margin: 0 auto;
+    
   }
   
   /* Animation */
   .law-firm {
-    animation: animated-text 4s steps(29,end) 5s 1 normal both,
-               animated-cursor 12000ms steps(29,end) infinite;
+    animation: animated-text 4s  5s 1 normal both,
+               animated-cursor 12000ms  infinite;
   }
   
   /* text animation */
   
   @keyframes animated-text{
     from{width: 0;}
-    to{width: 472px;}
+    to{width: 100%;}
   }
   
   /* cursor animations */
@@ -278,8 +281,7 @@ body{
     color: #000000;
     margin:0 auto;
     position: relative;
-    left: 40%;
-    margin-top: 5%;
+    margin-top: 2%;
     animation: 18s anim-lineUp1 ease-out;
     font-size: 20px;
     
@@ -388,11 +390,15 @@ body{
 
   .about-txt p{
 
-    text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
+    
+   
     padding-left: 15%;
     padding-right: 15%;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+    
   }
 
   @media (max-width: 1028px) {
@@ -404,6 +410,16 @@ body{
       display: block;
       border-radius: 15px;
     }
+    .home-screen1{
+
+      background-image: url(images/law2.jpg);
+      height: 30rem;
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+  }
   }
 
   .contact-us{
